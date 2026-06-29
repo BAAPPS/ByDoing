@@ -15,4 +15,4 @@ Create → Inject → Read
 - PropDrilling/ → Traditional approach
 - Environment/ → SwiftUI approach
 - ThemeManager.swift → Shared state model
-- ContentView.siwft → Root
+- ContentView.swift → Root
