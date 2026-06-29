@@ -8,10 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var themeManager = ThemeManager()
     var body: some View {
         VStack {
             PropDrillingComparisonView()
+            
             EnvironmentComparisonView()
+                .environment(themeManager)
         }
     }
 }
